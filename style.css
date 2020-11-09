@@ -1,0 +1,107 @@
+ main{
+                display:grid;
+                grid-template-columns:repeat(10,1fr);
+                grid-template-rows: auto;
+                grid-column-gap:15px;
+                grid-row-gap:5px;
+}
+.grid-text-placement1{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 30;
+    font-size: 35px;
+}
+.grid-text-placement2{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 35;
+    font-size: 29px;
+}
+#Ctext3{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 36;
+    font-size: 29px;
+}
+#index-image{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 40;
+    width: 450px;
+    height: 550px;
+    border-radius: 5px;
+    border-width: 50px;
+    margin-top: 5px;
+}
+#story-image1{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 90;
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+    border-width: 50px;
+    margin-top: 5px;
+}
+#story-image2{
+    grid-column-start: 7;
+    grid-row-start: 68;
+    grid-row-end: 65;
+    width: 450px;
+    height: 250px;
+}
+#index-video{
+    grid-column-start: 7;
+    grid-row-start: 38;
+    grid-row-end: 40;
+    width: 400px;
+    height: 400px;
+}
+#combat-video{
+    grid-column-start: 7;
+    grid-row-start: 33;
+    grid-row-end: 40;
+    width: 400px;
+    height: 400px;
+}
+h1{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    text-decoration: underline;
+}
+a:hover{
+    color: blue;
+}
+nav{ 
+    background-color:yellow;
+    display:grid;
+    grid-template-columns:repeat(6,250px);
+    max-width: 1250px;
+    text-align: center;
+    align-self: center;
+    margin-left:275px;
+    border-radius: 3px;
+    min-height: 28px;
+    font-size: 22px;
+    border-width:2px;
+    border-color: black;
+}
+nav a{
+    padding-left: 30px;
+    padding-right: 30px;
+    color:black;
+    align-content: center;
+    border-color: black;
+}
+.hjem{
+    font-weight:100;
+    font-size:23px;
+    background-color: slategrey;
+}
+body{
+    background-color: #c2c2a3;
+    max-width: 2000px;
+}
